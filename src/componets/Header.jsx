@@ -1,12 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-// Начало
-// 
-// Обслужване на клиенти
-// Гаранция на продуктите
-// Най-често задавани въпроси
-
 function Header() {
     return (
         <div className="w-full px-5 py-2 flex items-center bg-black text-white">
@@ -25,7 +19,7 @@ function Header() {
 
         </div>
     );
-}
+}   
 
 
 const MenuiIcon = () =>(
