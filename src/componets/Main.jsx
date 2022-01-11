@@ -12,7 +12,7 @@ function Main() {
             <div className="bg-hero h-[540px]  bg-cover flex ">
                 <div className="bg-black/[0.5] flex flex-wrap h-full center justify-center items-center header1-text text-white text-center">
                     <h1 className="flex-row">
-                        Всичко което ти трябва да запалиш Новoто Ти Баребекю
+                        Добре дошли в света на WEBER        
                     </h1>
                     <a className="~" href="https://bradva.net/weber-barbecue/">Пазарувай</a>
                 </div>
