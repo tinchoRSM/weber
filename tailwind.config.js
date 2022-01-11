@@ -5,22 +5,22 @@ module.exports = {
     "./src/componets/*{js.jsx}"],
   theme: {
     container: {
+      width: '100%',
       center: true,
-      padding: "1rem",
       fontFamily:{
         Roboto: ["Roboto, sans-serif"],
       },
-      screens: {
-        lg: "1124px",
-        xl: "1124px",
-        "2xl": "1124",
-      }
+
     },
     extend: {
       backgroundImage: {
-        'main-image-large': "url('./img/main-large.png')",
-        'main-image-medium': "url('./img/main-medium.png')",
-        'main-image-small': "url('./img/main-small.png')",
+        'hero': "url('./img/hero/Genesis_C_Food_Hero_1440x580.jpg')",
+        'hero2': "url('./img/hero/AboutHero.jpg')",
+        'hero3': "url('./img/hero/footer-bg-desktop.jpg')",
+        'hero4': "url('./img/hero/NewGrill_Hero_1440x580.jpg')",
+        'hero5': "url('./img/hero/NewAccessories_Hero_1440x580.jpg')"
+        
+
 
       },
     }

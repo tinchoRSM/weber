@@ -18,12 +18,12 @@
     @apply p-5
   }
 
-  .main-image-responsive{
-    @apply md:items-center h-[672px] bg-cover bg-main-image-large 
+  .social-icon{
+    @apply h-12 w-12 px-1 py-1
   }
 
-  .menu-item{
-    @apply cursor-pointer hover:bg-red-700 py-8 px-2 rounded-sm font-bold
+  .grill-image{
+    @apply h-[300px] w-[300px] p-5
   }
 
 }
