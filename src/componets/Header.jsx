@@ -1,34 +1,46 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, useLinkClickHandler} from 'react-router-dom';
+
+import {ReactComponent as LogoIcon} from '../img/svg/weber-logo.svg'
+import {ReactComponent as HomeIcon} from '../img/svg/home-svgrepo-com.svg'
+
 
 function Header() {
     return (
-        <div className="w-full px-5 py-2 flex items-center bg-black text-white">
-            <div className="container">
-                <div className="hidden md:flex flex-1 gap-4 justify-end items-center uppercase text-xs">
-                    <div className="py1"><img src="https://dw-images.weber.com/base/weber-logo.svg" alt="logo" /></div>
-                        <Link to="/"><span className="menu-item">Начало</span></Link>
-                        <Link to="/forus"><span className="menu-item">За нас</span></Link>
-                        <Link to="/#"><span className="menu-item">Обслужване на клиенти</span></Link>
-                        <Link to="/#"><span className="menu-item">Най-често задавани въпроси</span></Link>
-                    </div>
-                    <div className="flex md:hidden flex-1 justify-end">
-                    <MenuiIcon/>
-                </div>
-            </div>
-
-        </div>
+        <Navigation>    
+            <NavItem destination="/" icon={<LogoIcon/>} text=""/>
+            <NavItem destination="/" icon="" text="Начало"/>
+            <NavItem destination="/forus" icon="" text="За нас" />
+            <NavItem destination="/clients" icon="" text="Обслужване на клиенти" />
+            <NavItem destination="/" icon="" text="Магазини" />
+            
+        </Navigation>
     );
 }   
 
 
-const MenuiIcon = () =>(
-    <div className="cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-    </div>
-);
+function Navigation(props) {
+    return (
+        <nav className="bg-black text-white h-[70px] px-4 fixed w-full">
+            <ul className="max-w-full h-full flex justify-center items-center">
+                { props.children }
+            </ul>
+        </nav>
+    )
+}
+
+function NavItem(props) {
+    return(
+        <li className="flex center justify-center items-center px-4 h-full hover:bg-red-700">
+            <Link to={props.destination} className="">
+                <span >{props.icon}</span>
+                <span>{props.text}</span>
+                
+            </Link>
+        </li>
+    )
+}
+
 
 
 export default Header;
