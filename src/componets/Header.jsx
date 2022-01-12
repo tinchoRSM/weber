@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, useLinkClickHandler} from 'react-router-dom';
+import { Link }from 'react-router-dom';
 
 import {ReactComponent as LogoIcon} from '../img/svg/weber-logo.svg'
 import {ReactComponent as HomeIcon} from '../img/svg/home-svgrepo-com.svg'

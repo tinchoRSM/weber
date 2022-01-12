@@ -4,8 +4,7 @@ import {ReactComponent as Twitter} from '../img/svg/social/FIcon_Global_Twitter.
 import {ReactComponent as Instagram} from '../img/svg/social/FIcon_Global_Instagram.svg'
 import {ReactComponent as Pinterest} from '../img/svg/social//FIcon_Global_Pinterest.svg'
 import {ReactComponent as YouTube} from '../img/svg/social/FIcon_Global_YouTube.svg'
-import {ReactComponent as LinkedIn} from '../img/svg/social/FIcon_Global_LinkedIn.svg'
-
+import {Link,} from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -13,16 +12,25 @@ export default function Footer() {
             <div className="container px-10 flex flex-row">
                 <ul className="">
                     <p className="text-red-700">Помощ</p>
-                    <li>Политика за поверителност</li>
-                    <li>Най-често задавани въпроси</li>
-                    <li>Локатор на магазини</li>
-                    <li>Гаранция на продуктите</li>
-                    <li>Обслужване на клиенти</li>
+                    <li>
+                        <Link to="https://www.weber.com/US/en/privacypolicy.html">Политика за поверителност</Link>
+                    </li>
+                    <li>
+                        <Link to="/clients">Най-често задавани въпроси</Link>
+                    </li>
+                    <li>
+                        <Link to="/location">Магазини</Link>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    
                 </ul>
                 <ul className="px-10 w-[200px]"> 
                     <p className="text-red-700">За нас</p>
-                    <li>История</li>
-                    <li>Наследство</li>
+                    <li>
+                        <Link to="/forus">За нас</Link>
+                    </li>
+                    
                 </ul>
                 <ul className="" >
                     <p className="text-red-700" >Последвайте ни</p>
