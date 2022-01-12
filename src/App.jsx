@@ -7,6 +7,7 @@ import Footer from './componets/Footer.jsx';
 import ForUs from './componets/ForUs'  
 import Clients from './componets/Clients.jsx';
 import ShopLocation from './componets/ShopLocation'
+import ShopTest from './componets/ShopTest'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Routes>
                 <Route exact path="/forus" element={<ForUs/>} />
                 <Route path="/clients" element={<Clients/>} />
-                <Route path="/location" element={<ShopLocation/>} />
+                <Route path="/location" element={<ShopTest/>} />
                 <Route path="/"element={<Main/>}/>
                 
                 

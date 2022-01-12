@@ -13,7 +13,7 @@ export default function Footer() {
                 <ul className="">
                     <p className="text-red-700">Помощ</p>
                     <li>
-                        <Link to="https://www.weber.com/US/en/privacypolicy.html">Политика за поверителност</Link>
+                        <a href="https://www.weber.com/US/en/privacypolicy.html">Политика за поверителност</a>
                     </li>
                     <li>
                         <Link to="/clients">Най-често задавани въпроси</Link>
@@ -43,7 +43,7 @@ export default function Footer() {
                             <li><a href="https://twitter.com/webergrills"><Twitter className="social-icon"/></a></li>
                             <li><a href="https://www.pinterest.com/webergrills/"><Pinterest className="social-icon"/></a></li>
                             <li><a href="https://www.youtube.com/user/GrillwithWeber"><YouTube className="social-icon"/></a></li>  
-                            <li><a href="https://www.instagram.com/webergrills/"><Instagram className="social-icon"/></a></li>  
+                            <li><a href="https://www.instagram.com/weber_bbq_bulgaria/"><Instagram className="social-icon"/></a></li>  
                             
 
                         </ul>
