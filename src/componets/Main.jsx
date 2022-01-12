@@ -16,7 +16,7 @@ function Main() {
                         <h1 className="">Добре дошли в света на WEBER</h1>
                     </div>
                     <div className="flex-col m-20">
-                        <a className="pt-4 pb-8 px-6 m-4 border-2 border-black bg-red-700 text-white hover:bg-black" href="https://bradva.net/weber-barbecue/">Пазарувай</a>
+                        <a className="pt-1 pb-5 px-6 m-4 border-2 border-black bg-red-700 text-white hover:bg-black" href="https://bradva.net/weber-barbecue/">Пазарувай</a>
                     </div>
                     
                 </div>
@@ -39,7 +39,7 @@ function Main() {
                     <img className="grill-image" src={girll5} alt="" />
                 </div>
             </div>
-            <div className="bg-hero4 h-[540px]  bg-cover flex "></div>
+            
 
             <div className="h-[500px] w-full flex bg-black items-center justify-center">
                 <div className="">
@@ -47,9 +47,11 @@ function Main() {
                 </div>
             </div>
 
+            <div className="bg-hero4 h-[540px]  bg-cover flex "></div>
+{/* 
 
             <div className="bg-hero5 h-[540px]  bg-cover flex "></div>
-            <div className="bg-hero3 h-[234px]  bg-cover flex "></div>
+            <div className="bg-hero3 h-[234px]  bg-cover flex "></div> */}
 
 
 

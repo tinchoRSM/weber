@@ -32,16 +32,23 @@ export default function Footer() {
                     </li>
                     
                 </ul>
-                <ul className="" >
-                    <p className="text-red-700" >Последвайте ни</p>
-                    <li><a href="https://www.facebook.com/weberbbqbulgaria"><Facbeook className="social-icon"/></a></li>
-                    <li><a href="https://twitter.com/webergrills"><Twitter className="social-icon"/></a></li>
-                    <li><a href="https://www.pinterest.com/webergrills/"><Pinterest className="social-icon"/></a></li>
-                    <li><a href="https://www.youtube.com/user/GrillwithWeber"><YouTube className="social-icon"/></a></li>  
-                    <li><a href="https://www.instagram.com/webergrills/"><Instagram className="social-icon"/></a></li>  
-                    
+                <div>
+                    <div className="flex-col">
+                        <p className="text-red-700" >Последвайте ни</p>
+                    </div>
+                    <div className="flex-col">
+                        <ul className="flex col" >
+                            
+                            <li><a href="https://www.facebook.com/weberbbqbulgaria"><Facbeook className="social-icon"/></a></li>
+                            <li><a href="https://twitter.com/webergrills"><Twitter className="social-icon"/></a></li>
+                            <li><a href="https://www.pinterest.com/webergrills/"><Pinterest className="social-icon"/></a></li>
+                            <li><a href="https://www.youtube.com/user/GrillwithWeber"><YouTube className="social-icon"/></a></li>  
+                            <li><a href="https://www.instagram.com/webergrills/"><Instagram className="social-icon"/></a></li>  
+                            
 
-                </ul>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div className="container flex flex-row py-5 px-10" >
                 <p>© 2021 Weber. All Rights Reserved.</p>

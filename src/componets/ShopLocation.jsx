@@ -8,7 +8,7 @@ import { Wrapper, Status } from '@googlemaps/react-wrapper'
 function ShopLocation() {
     return (
         <div className="w-full h-[500px]">
-            <div className="container">
+            <div className="">
                 <Wrapper apiKey="AIzaSyCmC6Q5HtsFhrYG_mqU4DgKKgsreN52Upc">
                     <Map center={ {lat: -34.397, lng: 150.644 }} zoom={4} />
                 </Wrapper>
@@ -31,7 +31,7 @@ function Map({
       });
     });
   
-    return <div ref={ref} className="h-full" />;
+    return <div ref={ref} className="h-full w-[500px]" />;
   }
 
 export default ShopLocation;
