@@ -12,7 +12,7 @@ function Header() {
             <NavItem destination="/" icon="" text="Начало"/>
             <NavItem destination="/forus" icon="" text="За нас" />
             <NavItem destination="/clients" icon="" text="Обслужване на клиенти" />
-            <NavItem destination="/" icon="" text="Магазини" />
+            <NavItem destination="/location" icon="" text="Магазини" />
             
         </Navigation>
     );

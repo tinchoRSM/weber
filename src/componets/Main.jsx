@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link, useLinkClickHandler} from 'react-router-dom';
+import ReactPlayer from 'react-player'
 import girll1 from '../img/grills/Performer_MegaMenu_300x300.png'
 import girll2 from '../img/grills/Portable_MegaMenu_300x300.png'
 import girll3 from '../img/grills/Pulse_MegaMenu_300x300.png'
@@ -9,12 +10,15 @@ import girll5 from '../img/grills/Smart_MegaMenu_300x300.png'
 function Main() {
     return (
         <div className="pt-[70px]">
-            <div className="bg-hero h-[540px]  bg-cover flex ">
-                <div className="bg-black/[0.5] flex flex-wrap h-full center justify-center items-center header1-text text-white text-center">
-                    <h1 className="flex-row">
-                        Добре дошли в света на WEBER        
-                    </h1>
-                    <a className="~" href="https://bradva.net/weber-barbecue/">Пазарувай</a>
+            <div className="bg-hero h-[540px]   bg-cover flex ">
+                <div className=" bg-black/[0.5] w-full h-full justify-center items-center header1-text text-white text-center">
+                    <div className="flex-col m-20">
+                        <h1 className="">Добре дошли в света на WEBER</h1>
+                    </div>
+                    <div className="flex-col m-20">
+                        <a className="pt-4 pb-8 px-6 m-4 border-2 border-black bg-red-700 text-white hover:bg-black" href="https://bradva.net/weber-barbecue/">Пазарувай</a>
+                    </div>
+                    
                 </div>
                
             </div>
@@ -35,15 +39,17 @@ function Main() {
                     <img className="grill-image" src={girll5} alt="" />
                 </div>
             </div>
-            <div className="bg-hero4 h-[540px]  bg-cover flex ">
+            <div className="bg-hero4 h-[540px]  bg-cover flex "></div>
 
+            <div className="h-[500px] w-full flex bg-black items-center justify-center">
+                <div className="">
+                    <ReactPlayer url="https://www.youtube.com/watch?v=CsChHGzGtWQ"/>
+                </div>
             </div>
-            <div className="bg-hero5 h-[540px]  bg-cover flex ">
 
-            </div>
-            <div className="bg-hero3 h-[234px]  bg-cover flex ">
 
-            </div>
+            <div className="bg-hero5 h-[540px]  bg-cover flex "></div>
+            <div className="bg-hero3 h-[234px]  bg-cover flex "></div>
 
 
 
