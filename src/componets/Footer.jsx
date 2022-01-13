@@ -16,10 +16,10 @@ export default function Footer() {
                         <a href="https://bradva.net/poveritelnost">Политика за поверителност</a>
                     </li>
                     <li>
-                        <Link to="/clients">Най-често задавани въпроси</Link>
+                        <Link to="/weber/clients">Най-често задавани въпроси</Link>
                     </li>
                     <li>
-                        <Link to="/location">Магазини</Link>
+                        <Link to="/weber/location">Магазини</Link>
                     </li>
                     <li></li>
                     <li></li>
@@ -28,7 +28,7 @@ export default function Footer() {
                 <ul className="px-10 w-[200px]"> 
                     <p className="text-red-700">За нас</p>
                     <li>
-                        <Link to="/forus">За нас</Link>
+                        <Link to="/weber/forus">За нас</Link>
                     </li>
                     
                 </ul>
