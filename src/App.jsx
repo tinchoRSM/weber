@@ -17,7 +17,7 @@ function App() {
                 <Route exact path="/forus" element={<ForUs/>} />
                 <Route path="/clients" element={<Clients/>} />
                 <Route path="/location" element={<ShopTest/>} />
-                <Route path="/"element={<Main/>}/>
+                              <Route path="/"element={<Main/>}/>
                 
                 
               </Routes>
