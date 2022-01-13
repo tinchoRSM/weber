@@ -13,7 +13,7 @@ export default function Footer() {
                 <ul className="">
                     <p className="text-red-700">Помощ</p>
                     <li>
-                        <a href="https://www.weber.com/US/en/privacypolicy.html">Политика за поверителност</a>
+                        <a href="https://bradva.net/poveritelnost">Политика за поверителност</a>
                     </li>
                     <li>
                         <Link to="/clients">Най-често задавани въпроси</Link>
@@ -51,7 +51,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="container flex flex-row py-5 px-10" >
-                <p>© 2021 Weber. All Rights Reserved.</p>
+                <p>© 2022 Weber. All Rights Reserved.</p>
             </div>
         </footer>
     )

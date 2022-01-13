@@ -1,28 +1,45 @@
 import { Wrapper } from "@googlemaps/react-wrapper";
 import React from "react";
+import { useEffect, useRef, useState } from "react";
 
-const markers = [
-  { lat: 42.629180412652296, lng: 23.445410117588874 },
-  { lat: 42.64272667771185, lng: 23.308954275638964 }
+
+const data =[
+  {
+    textInfo : `<p><b>Rosima</b></p><p>ul. "Viso" 60</p><p>1151 v.z. Vrana-Lozen triagalnika, Sofia</p><p>Bulgaria</p>`,
+    position : { lat: 42.629180412652296, lng: 23.445410117588874 }
+  },
+
+  {
+    textInfo : "Praktiker",
+    position : { lat: 42.64272667771185, lng: 23.308954275638964 }
+  },
+
+  {
+    textInfo : "Varna",
+    position : { lat: 43.21063088200734, lng: 27.921821262349848 }
+  },
+
+
 ];
 
-const Map = ({ onClick, onIdle, children, style, ...options }) => {
+
+const Map = ({ onClick, onIdle, children, style, ...options}) => {
   const ref = React.useRef(null);
   const [map, setMap] = React.useState();
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (ref.current && !map) {
       setMap(new window.google.maps.Map(ref.current, {}));
     }
   }, [ref, map]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (map) {
       map.setOptions(options);
     }
   }, [map, options]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (map) {
       ["click", "idle"].forEach((eventName) =>
         window.google.maps.event.clearListeners(map, eventName)
@@ -51,10 +68,12 @@ const Map = ({ onClick, onIdle, children, style, ...options }) => {
 };
 
 const Marker = (options) => {
-  const [marker, setMarker] = React.useState();
-  const contentRef = React.useRef(null);
+  const [marker, setMarker] = useState();
+  const contentRef = useRef(null);
 
-  React.useEffect(() => {
+  
+
+  useEffect(() => {
     if (!marker) {
       setMarker(new window.google.maps.Marker());
     }
@@ -66,17 +85,18 @@ const Marker = (options) => {
     };
   }, [marker]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (marker) {
-      const infowindow = new window.google.maps.InfoWindow({
-        content: `daver`
-      });
-      marker.setOptions(options);
+      const infowindow = new window.google.maps.InfoWindow({content: options.content});
+            marker.setOptions(options);
+      
 
       marker.addListener("click", () => {
+        
         infowindow.open({
           anchor: marker,
-          shouldFocus: false
+          shouldFocus: false,
+          
         });
       });
     }
@@ -91,13 +111,16 @@ export default function ShopTets() {
         
       <Wrapper apiKey={"AIzaSyCmC6Q5HtsFhrYG_mqU4DgKKgsreN52Upc"}>
         <Map
-          center={{ lat: 42.651411775077044, lng: 23.3746000073453 }}  
-          zoom={13}
+          center={{ lat: 42.732132804671124, lng: 25.08932957799609 }}  
+          zoom={8}
           style={{ flexGrow: "1", height: "100%" }}
         >
-          {markers.map((marker) => {
-            return <Marker position={marker} />;
+
+
+          {data.map((data) => {
+            return <Marker position={data.position} content={data.textInfo} />;
           })}
+          
         </Map>
       </Wrapper>
     </div>

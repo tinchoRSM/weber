@@ -1,6 +1,7 @@
 {
   "name": "weber",
   "version": "0.1.0",
+  "homepage": "http://rossima.com/weber",
   "private": true,
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.20",
