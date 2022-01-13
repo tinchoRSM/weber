@@ -35,7 +35,6 @@ function Main() {
                     <img className="grill-image" src={girll1} alt="" />
                     <img className="grill-image" src={girll2} alt="" />
                     <img className="grill-image" src={girll3} alt="" />
-                    <img className="grill-image" src={girll4} alt="" />
                     <img className="grill-image" src={girll5} alt="" />
                 </div>
             </div>
