@@ -9,11 +9,11 @@ import {ReactComponent as CartIcon} from '../img/svg/cart-4-svgrepo-com.svg'
 function Header() {
     return (
         <Navigation>    
-            <NavItem destination="/" icon={<LogoIcon className="h-[36px] w-[78px]"/>} text=""/>
-            <NavItem destination="/" icon="" text="Начало"/>
-            <NavItem destination="/forus" icon="" text="За нас" />
-            <NavItem destination="/clients" icon="" text="Обслужване на клиенти" />
-            <NavItem destination="/location" icon="" text="Магазини" />
+            <NavItem destination="/weber/" icon={<LogoIcon className="h-[36px] w-[78px]"/>} text=""/>
+            <NavItem destination="/weber/" icon="" text="Начало"/>
+            <NavItem destination="/weber/forus" icon="" text="За нас" />
+            <NavItem destination="/weber/clients" icon="" text="Обслужване на клиенти" />
+            <NavItem destination="/weber/location" icon="" text="Магазини" />
             <li className="flex center justify-center items-center px-4 h-full hover:bg-red-700">
                 <a href="https://bradva.net/weber-barbecue/"><CartIcon/></a>
             </li>

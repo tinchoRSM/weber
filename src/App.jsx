@@ -14,11 +14,11 @@ function App() {
       <div className="">
           <Header/>
             <Routes>
-                <Route exact path="/forus" element={<ForUs/>} />
-                <Route path="/clients" element={<Clients/>} />
-                <Route path="/location" element={<ShopTest/>} />
-                              <Route path="/"element={<Main/>}/>
-                
+              
+                <Route exact path="/weber/forus" element={<ForUs/>} />
+                <Route path="/weber/clients" element={<Clients/>} />
+                <Route path="/weber/location" element={<ShopTest/>} />
+                <Route path="/weber/"element={<Main/>}/>
                 
               </Routes>
           <Footer/>

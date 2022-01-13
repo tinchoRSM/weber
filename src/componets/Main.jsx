@@ -31,7 +31,7 @@ function Main() {
 
             <div>
                 <h1 className="header1-text text-center">Избери перфетния грил за теб</h1>
-                <div className="p-5 flex justify-center items-center text-center bg-white text-black">
+                <div className="p-5 flex flex-wrap justify-center items-center text-center bg-white text-black">
                     <img className="grill-image" src={girll1} alt="" />
                     <img className="grill-image" src={girll2} alt="" />
                     <img className="grill-image" src={girll3} alt="" />

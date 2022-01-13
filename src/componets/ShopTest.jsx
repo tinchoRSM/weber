@@ -10,12 +10,12 @@ const data =[
   },
 
   {
-    textInfo : "Praktiker",
+    textInfo : `<p><b>Planika</b></p><p>ul. "ul. "Okolovrasten pat" 36</p><p>1415 Vodoley-1, Sofia</p><p>Bulgaria</p>`,
     position : { lat: 42.64272667771185, lng: 23.308954275638964 }
   },
 
   {
-    textInfo : "Varna",
+    textInfo : `<p><b>Специализиран барбекю център Марков 92 ЕООД</b></p><p>bul. "8-mi Primorski Polk"</p><p>, 9010 Sotira, Varna</p><p>Bulgaria</p>`,
     position : { lat: 43.21063088200734, lng: 27.921821262349848 }
   },
 
