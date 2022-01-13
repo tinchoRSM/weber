@@ -19,7 +19,7 @@ export default function Footer() {
                         <Link to="/clients">Най-често задавани въпроси</Link>
                     </li>
                     <li>
-                        <Link to="/location">Магазини</Link>
+                        <Link to="/location">Локатор магазини</Link>
                     </li>
                     <li></li>
                     <li></li>
@@ -28,7 +28,7 @@ export default function Footer() {
                 <ul className="px-10 w-[200px]"> 
                     <p className="text-red-700">За нас</p>
                     <li>
-                        <Link to="/forus">За нас</Link>
+                        <Link to="/forus">История</Link>
                     </li>
                     
                 </ul>

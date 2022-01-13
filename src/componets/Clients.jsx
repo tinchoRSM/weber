@@ -9,6 +9,7 @@ export default function Clients() {
                 <p className="pharagaph-text text-center">Каквито и въпроси да възникнат у вас, нашият Отдел за обслужване на клиенти е тук, за да помогне. Моля, свържете се с нас по-най-удобният за вас начин.</p>
                 <p className="text-center">e-mail: <a className="text-red-700" href="info@bradva.net">info@bradva.net</a></p>
                 <p className="text-center">phone: +359885104419</p>
+                <p className="pharagaph-text text-center">Работно време: Понеделник - Петък; 09:00ч-17:30ч </p>
             </div>
     </div>
     )
