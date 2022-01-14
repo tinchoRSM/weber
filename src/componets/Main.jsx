@@ -24,7 +24,7 @@ function Main() {
             </div>
             <div className="p-5 flex text-center bg-red-700 text-white">
                 <div className="container">
-                    <h1 className="header1-text flex-col-reverse ">Weber</h1>
+                    <h1 className="header1-text flex-col-reverse ">Weber в България</h1>
                     <p className="pharagaph-text flex-col">Фирма Росима ЕООД  e изключителен вносител на WEBER за България. Предлагаме широка гама барбекюта на въглища, газови барбекюта, електрически барбекюта и много допълнителни аксесоари за готвене и сервиране! Можете да се свържете с нас за всякакви въпроси относно закупуване,  употреба, гаранционно обслужване,  сервиз и резервни части на продукти WEBER. </p>
                 </div>
             </div>

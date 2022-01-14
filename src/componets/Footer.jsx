@@ -28,7 +28,7 @@ export default function Footer() {
                 <ul className="px-10 w-[200px]"> 
                     <p className="text-red-700">За нас</p>
                     <li>
-                        <Link to="/weber/forus">За нас</Link>
+                        <Link to="/weber/forus">История</Link>
                     </li>
                     
                 </ul>
