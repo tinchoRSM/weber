@@ -19,7 +19,7 @@ export default function Footer() {
                         <Link to="/clients">Най-често задавани въпроси</Link>
                     </li>
                     <li>
-                        <Link to="/location">Магазини</Link>
+                        <Link to="/location">Локатор на магазини</Link>
                     </li>
                     <li></li>
                     <li></li>
