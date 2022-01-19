@@ -21,8 +21,8 @@ function Navigation() {
 
 
     return (
-        <nav className="flex items-center bg-black p-3 flex-wrap fixed w-full ">
-            <Link to="/" className="p-2 mr-4 inline-flex items-center">
+        <nav className="flex items-center bg-black p-3 flex-wrap fixed w-full lg:justify-center ">
+            <Link to="/" className="p-2 mr-4 inline-flex items-center lg:flex-1 lg:justify-end">
                 <LogoIcon className="h-[36px] w-[78px]" />
             </Link>
            
@@ -36,7 +36,7 @@ function Navigation() {
                 (show ? "hidden" : "" ) + "hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"}
                 
                 >
-                <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
+                <div className="lg:inline-flex lg:flex-1 lg:flex-row lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
                     
                     {menus.map((menu) => {
                         return <NavItem name={menu.name} location={menu.location} />
