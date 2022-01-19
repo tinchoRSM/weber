@@ -9,6 +9,7 @@ import Clients from './componets/Clients.jsx';
 import ShopTest from './componets/ShopTest';
 import Navigation from './componets/Navigation';  
 import Shop from './componets/Shop'
+import NotFound404 from './componets/NotFound404'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/location" element={<ShopTest/>} />
                 <Route path="/shop" element={<Shop/>}/>
                 <Route path="/"element={<Main/>}/>
+                <Route path="*"element={<NotFound404/>}/>
                 
               </Routes>
           <Footer/>
