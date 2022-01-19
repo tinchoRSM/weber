@@ -9,26 +9,26 @@ import {Link,} from 'react-router-dom'
 export default function Footer() {
     return (
         <footer class=" bg-black text-white py-8">
-            <div className="container px-10 flex flex-row">
-                <ul className="">
+            <div className="container px-10 flex flex-row flex-wrap">
+                <ul className="w-[250px]">
                     <p className="text-red-700">Помощ</p>
                     <li>
                         <a href="https://bradva.net/poveritelnost">Политика за поверителност</a>
                     </li>
                     <li>
-                        <Link to="/weber/clients">Най-често задавани въпроси</Link>
+                        <Link to="/clients">Най-често задавани въпроси</Link>
                     </li>
                     <li>
-                        <Link to="/weber/location">Магазини</Link>
+                        <Link to="/location">Магазини</Link>
                     </li>
                     <li></li>
                     <li></li>
                     
                 </ul>
-                <ul className="px-10 w-[200px]"> 
+                <ul className="w-[200px]"> 
                     <p className="text-red-700">За нас</p>
                     <li>
-                        <Link to="/weber/forus">За нас</Link>
+                        <Link to="/forus">За нас</Link>
                     </li>
                     
                 </ul>

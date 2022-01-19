@@ -26,4 +26,22 @@
     @apply h-[300px] w-[300px] p-5
   }
 
+  .navigation-small{
+      
+  }
+
+  .navigation-big{
+    @apply max-w-full h-full flex justify-center items-center
+  }
+
+  .menuitem-big{
+    @apply flex justify-center items-center px-4 h-full hover:bg-red-700
+  }
+
+  .menuitem-small{
+    @apply w-full justify-center items-center px-4 h-full hover:bg-red-700 bg-black
+  }
+  
+
+
 }

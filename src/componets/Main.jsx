@@ -42,7 +42,7 @@ function Main() {
 
             <div className="h-[500px] w-full flex bg-black items-center justify-center">
                 <div className="">
-                    <ReactPlayer url="https://www.youtube.com/watch?v=CsChHGzGtWQ"/>
+                    <ReactPlayer className="relative m-0 transform-none" url="https://www.youtube.com/watch?v=CsChHGzGtWQ"/>
                 </div>
             </div>
 
