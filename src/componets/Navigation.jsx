@@ -10,7 +10,7 @@ const menus = [
     { name: "За нас", location: "/forus" },
     { name: "Обслужване на клиенти", location: "/clients" },
     { name: "Съвети", location: "/tips"},
-    { name: "Магазини", location: "/location" },
+    { name: "Mагазини", location: "/location" },
     { name: <CartIcon/>, location: "/shop" }
 
 ]
