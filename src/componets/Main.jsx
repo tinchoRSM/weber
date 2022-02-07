@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link, useLinkClickHandler} from 'react-router-dom';
 import ReactPlayer from 'react-player'
-import girll1 from '../img/grills/Performer_MegaMenu_300x300.png'
+import girll1 from '../img/grills/grill6.png'
 import girll2 from '../img/grills/Portable_MegaMenu_300x300.png'
 import girll3 from '../img/grills/Pulse_MegaMenu_300x300.png'
 import girll4 from '../img/grills/Ranch_MegaMenu_300x300.png'
