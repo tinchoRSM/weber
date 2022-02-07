@@ -12,6 +12,7 @@ import Shop from './componets/Shop'
 import NotFound404 from './componets/NotFound404'
 import ScrollToTop from './componets/ScrollToTop.jsx';
 import Tips from './componets/Tips.jsx';
+import Confidential from './componets/Confidential.jsx';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
                   <Route path="/clients" element={<Clients/>} />
                   <Route path="/location" element={<ShopTest/>} />
                   <Route path="/shop" element={<Shop/>}/>
-                  <Route path="/Tips" element={<Tips/>}/>
+                  <Route path="/tips" element={<Tips/>}/>
+                  <Route path="/confidential" element={<Confidential/>}/>
                   <Route path="/"element={<Main/>}/>
                   <Route path="*"element={<NotFound404/>}/>
                   

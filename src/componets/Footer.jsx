@@ -13,7 +13,7 @@ export default function Footer() {
                 <ul className="w-[250px]">
                     <p className="text-red-700">Помощ</p>
                     <li>
-                        <a href="https://bradva.net/poveritelnost">Политика за поверителност</a>
+                        <Link to="/confidential">Политика за поверителност</Link>
                     </li>
                     <li>
                         <Link to="/clients">Най-често задавани въпроси</Link>
