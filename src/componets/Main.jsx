@@ -11,13 +11,10 @@ function Main() {
     return (
         <div className="pt-[70px]">
             <div className="bg-hero h-[540px]   bg-cover flex ">
-                <div className=" bg-black/[0.5] w-full h-full justify-center items-center header1-text text-white text-center">
-                    <div className="flex-col m-20">
-                        <h1 className="mt-[200px]">Добре дошли в света на WEBER</h1>
+                <div className=" bg-black/[0.5] w-full h-full justify-center items-center text-white text-center">
+                    <div className="flex-col mt-40 lg:m-20 ">
+                        <h1 className="header1-text text-[45px] lg:text-[60px] lg:mt-[200px]">Добре дошли в света на WEBER</h1>
                     </div>
-                    {/* <div className="flex-col m-20">
-                        <a className="pt-1 pb-5 px-6 m-4 border-2 border-black bg-red-700 text-white hover:bg-black" href="https://bradva.net/weber-barbecue/">Пазарувай</a>
-                    </div> */}
                     
                 </div>
                
@@ -30,7 +27,7 @@ function Main() {
             </div>
 
             <div>
-                <h1 className="header1-text text-center">Избери перфетния грил за теб</h1>
+                <h1 className="header1-text text-center">Избери перфектния грил за теб</h1>
                 <div className="p-5 flex flex-wrap justify-center items-center text-center bg-white text-black">
                     <img className="grill-image" src={girll1} alt="" />
                     <img className="grill-image" src={girll2} alt="" />
@@ -40,9 +37,13 @@ function Main() {
             </div>
             
 
-            <div className="h-[500px] w-full flex bg-black items-center justify-center">
-                <div className="">
-                    <ReactPlayer className="relative m-0 transform-none" url="https://www.youtube.com/watch?v=CsChHGzGtWQ"/>
+            <div className="lg:h-[500px] w-full flex bg-black items-center justify-center">
+                <div className="lg: w-[1024px] h-[500px]">
+                    <ReactPlayer className="m-0 transform-none"
+                     url="https://www.youtube.com/watch?v=CsChHGzGtWQ"
+                        width="100%"
+                        height="100%"
+                        controls={false}/>
                 </div>
             </div>
 

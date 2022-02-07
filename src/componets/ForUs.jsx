@@ -5,13 +5,13 @@ import img2 from '../img/OK_1952_400x200.jpg'
 export default function ForUs() {
     return (
         <div className="container pt-[70px] lg:px-[10rem] mb-[5rem]">
-            <h1 className="header1-text">Защо произвеждаме барбекюта?</h1>
+            <h1 className="header1-text text-[45px] lg:text-[60px] ">Защо произвеждаме барбекюта?</h1>
             <h2 className="header2-text">НАШАТА МОТИВАЦИЯ</h2>
             <div className="container flex flex-col lg:flex-row">
                 <img className="flex-row" src={img1} alt="" />
                 <p className="pharagaph-text flex-row">Произвеждаме барбекюта, защото обичаме вкусната храна – сочни пържоли, крехки ребърца, шишчета. Защото искаме да се възползваме максимално от хубавото време, от съботите, от нашата тераса. Всичко едновременно. Да бъдем с приятелите си наистина... не само в социалните мрежи. Да споделяме добрата храна със семейството си, на открито. Да си говорим за всичко и нищо. </p>
             </div>
-            <h1 className="header1-text">ИДЕЯ ОТ ШАМАНДУРА</h1>
+            <h1 className="header1-text text-[45px] lg:text-[60px]">ИДЕЯ ОТ ШАМАНДУРА</h1>
             <h2 className="header2-text">Правим по-добри барбекюта и получаваме по-добър вкус</h2>
             <div className="container flex flex-col lg:flex-row ">
                 

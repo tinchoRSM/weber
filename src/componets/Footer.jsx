@@ -21,7 +21,7 @@ export default function Footer() {
                     <li>
                         <Link to="/location">Магазини</Link>
                     </li>
-                    <li></li>
+                    <li><Link to="/tips">Полезни съвети</Link></li>
                     <li></li>
                     
                 </ul>

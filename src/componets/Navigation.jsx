@@ -9,6 +9,7 @@ const menus = [
     { name: "Начало", location: "/" },
     { name: "За нас", location: "/forus" },
     { name: "Обслужване на клиенти", location: "/clients" },
+    { name: "Съвети", location: "/tips"},
     { name: "Магазини", location: "/location" },
     { name: <CartIcon/>, location: "/shop" }
 

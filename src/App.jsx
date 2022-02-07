@@ -10,21 +10,26 @@ import ShopTest from './componets/ShopTest';
 import Navigation from './componets/Navigation';  
 import Shop from './componets/Shop'
 import NotFound404 from './componets/NotFound404'
+import ScrollToTop from './componets/ScrollToTop.jsx';
+import Tips from './componets/Tips.jsx';
 
 function App() {
   return (
       <div className="">
           <Navigation/>
-            <Routes>
-              
-                <Route exact path="/forus" element={<ForUs/>} />
-                <Route path="/clients" element={<Clients/>} />
-                <Route path="/location" element={<ShopTest/>} />
-                <Route path="/shop" element={<Shop/>}/>
-                <Route path="/"element={<Main/>}/>
-                <Route path="*"element={<NotFound404/>}/>
-                
-              </Routes>
+            <ScrollToTop>
+              <Routes>
+                  
+                  <Route exact path="/forus" element={<ForUs/>} />
+                  <Route path="/clients" element={<Clients/>} />
+                  <Route path="/location" element={<ShopTest/>} />
+                  <Route path="/shop" element={<Shop/>}/>
+                  <Route path="/Tips" element={<Tips/>}/>
+                  <Route path="/"element={<Main/>}/>
+                  <Route path="*"element={<NotFound404/>}/>
+                  
+                </Routes>
+              </ScrollToTop>
           <Footer/>
       </div>
 
